@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        
+        .create-account-prompt {
+            margin-top: 10px;
+        }
+        .create-new-for {
+            color: blue;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .hidden {
+            display: none;
+        }
+            
+              .create-account-form {
+            background-color: #c7adad;
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            
+              }
+    
+    </style>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./global.css">
+</head>
+<body>
+  <div class="not-logged-in-desktop">
+    <header class="rectangle-parent29">
+      <div class="rectangle6"></div>
+      <div class="whole-frame">
+        <img
+          class="whole-icon2"
+          loading="lazy"
+          alt=""
+          src="./images/whole.svg"
+        />
+      </div>
+      <div class="rectangle-group">
+        <div class="rectangle1"></div>
+        <img class="frame-child" alt="" src="./images/baseline-search-24px.svg" />
+            <input
+            class="frame-item"
+            placeholder="Search for your favorite groups in ATG"
+            type="text"
+          />
+        </div>
+      <div class="a-container">
+        <span>create account </span>
+        <a href="#create-account-form" class="create-new-for" onclick="toggleForm()"> its free!</a>
+    </div>
+</div>
+</div>
+    </header>
+    <div class="separator"></div>
+    <div class="computer-engineers-wrapper">
+      <div class="computer-engineers">
+        <div class="computer-engineers-child"></div>
+        <div class="computer-engineers-icon"></div>
+        <h1 class="computer-engineering">Computer Engineering</h1>
+        <div class="computer-engineers-follow">
+          142,765 Computer Engineers follow this
+        </div>
+      </div>
+    </div>
+    <div class="content1">
+      <div class="content-header">
+        <div class="header-divider"></div>
+        <div class="content-options">
+          <div class="posts-options">
+            <div class="post-types">
+              <div class="post-type-selection">
+                <div class="post-type-dropdown">
+                  <div class="all-posts322">All Posts(32)</div>
+                  <div class="article4">Article</div>
+                  <div class="event2">Event</div>
+                  <div class="education4">Education</div>
+                  <div class="job2">Job</div>
+                </div>
+              </div> 
+              <div class="action-buttons">
+                <div class="rectangle-parent31">
+                  <div class="frame-child41"></div>
+                  <div class="write-post-input">
+                    <div class="write-a-post2">Write a Post</div>
+                  </div>
+                  <img
+                    class="baseline-arrow-drop-down-24px-icon3"
+                    alt=""
+                    src="./images/baseline-arrow_drop_down-24px.svg"
+                  />
+                </div>
+                <button class="rectangle-parent32">
+                  <div class="frame-child42"></div>
+                  <img
+                    class="baseline-group-add-24px-icon"
+                    alt=""
+                    src="./images/baseline-group_add-24px.svg"
+                  />
+
+                  <div class="join-group-wrapper">
+                    <div class="join-group">Join Group</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="content-divider">
+              <div class="line2"></div>
+              <div class="content-divider-child"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main-content">
+      <section class="posts">
+        <div class="post-container1">
+          <div class="post-items">
+            <div class="post-items-child"></div>
+            <img
+              class="post-item-icons"
+              loading="lazy"
+              alt=""
+              src="./images/Rectangle 5.svg"
+            />
+ <!-- Create Account Form -->
+ <div id="create-account-form" class="hidden">
+        
+  <form class="or-parent">
+      
+      <div class="rectangle2"></div>
+      <button class="footer-title">
+        <div class="footer-title-child"></div>
+        <div class="lets-learn-share">
+          Let's learn, share & inspire each other with our
+          passion for computer engineering. Sign up now 🤘🏼
+        </div>
+      </button>
+      <div class="signup">
+        <div class="signup-form">
+          <div class="signup-fields">
+            <div class="create-button">
+              <h2 class="create-account1">Create Account</h2>
+            </div>
+            <div class="input-fields">
+              <div class="rectangle-parent4">
+                <div class="frame-child8"></div>
+                <div class="input-label">
+                  <div class="first-name">First Name</div>
+                </div>
+                <div class="name-input">
+                  <div class="name-separator"></div>
+                  <div class="last-name-input">
+                    <div class="last-name">Last Name</div>
+                  </div>
+                </div>
+              </div>
+              <div class="rectangle-parent5">
+                <div class="frame-child9"></div>
+                <div class="email">Email</div>
+              </div>
+              <div class="rectangle-parent6">
+                <div class="frame-child10"></div>
+                <div class="password-wrapper">
+                  <div class="password">Password</div>
+                </div>
+                <img
+                  class="group-icon"
+                  alt=""
+                  src="./images/visibility_24px_outlined.svg"
+                />
+              </div>
+              <div class="rectangle-parent7">
+                <div class="frame-child11"></div>
+                <div class="confirm-password">
+                  Confirm Password
+                </div>
+              </div>
+            </div>
+            <div class="submit-button">
+              <button class="rectangle-parent8">
+                <div class="frame-child12"></div>
+                <div class="create-account2">
+                  Create Account
+                </div>
+              </button>
+            </div>
+            <div class="social-signup">
+              <button class="rectangle-parent9">
+                <div class="frame-child13"></div>
+                <img
+                  class="f-logo-rgb-blue-1024-icon"
+                  alt=""
+                  src="./images/f_logo_RGB-Blue_1024.svg"
+                />
+
+                <div class="sign-up-with">
+                  Sign up with Facebook
+                </div>
+              </button>
+              <button class="rectangle-parent10">
+                <div class="frame-child14"></div>
+                <img
+                  class="search-icon"
+                  alt=""
+                  src="./images/search.svg"
+                />
+
+                <div class="sign-up-with1">
+                  Sign up with Google
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="login">
+            <div class="already-have-an-container">
+              <span class="already-have-an"
+                >Already have an account?
+              </span>
+              <span class="sign-in">Sign In</span>
+            </div>
+            <div class="agreement">
+              <img
+                class="agreement-child"
+                alt=""
+                src="./images/atg_illustration.svg"
+              />
+
+              <div class="by-signing-up">
+                By signing up, you agree to our Terms &
+                conditions, Privacy policy
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+</div>
+      
+            <div class="post-item-titles">
+              <div class="post-item-descriptions">
+                <div class="article5">✍️ Article</div>
+                <div class="post-item-authors">
+                  <div class="what-if-famous2">
+                    What if famous brands had regular fonts? Meet
+                    RegulaBrands!
+                  </div>
+                  <div class="post-item-actions">
+                    <img
+                      class="post-item-actions-child"
+                      loading="lazy"
+                      alt=""
+                      src="./images/baseline-more_vert-24px.svg"
+                    />
+                  </div>
+                </div>
+                <div class="ive-worked-in4">
+                  I’ve worked in UX for the better part of a decade. From now
+                  on, I plan to rei…
+                </div>
+              </div>
+            </div>
+            <div class="post-item-details">
+              <div class="post-item-usernames">
+                <div class="post-item-username-containers">
+                  <img
+                    class="post-item-user-icons"
+                    loading="lazy"
+                    alt=""
+                    src="./images/Rectangle 3.png"
+                  />
+
+                  <div class="sarthak-kamra-container">
+                    <div class="sarthak-kamra4">Sarthak Kamra</div>
+                  </div>
+                </div>
+                <div class="post-item-view-counts">
+                  <div class="post-item-view-count-container">
+                    <div class="post-item-view-count-icons">
+                      <div class="post-item-view-count-values">
+                        <img
+                          class="iconactionvisibility-24px4"
+                          loading="lazy"
+                          alt=""
+                          src="./images/visibility_24px_outlined.svg"
+                        />
+
+                        <div class="k-views4">1.4k views</div>
+                      </div>
+                    </div>
+                    <img
+                      class="post-item-view-count-container-child"
+                      loading="lazy"
+                      alt=""
+                      src="./images/baseline-share-24px.svg"
+                    />
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div class="post-items1">
+            <div class="post-items-item"></div>
+            <img
+              class="post-items-inner"
+              alt=""
+              src="./images/Rectangle 5 (1).svg"
+            />
+
+            <div class="post-items-inner1">
+              <div class="education-group">
+                <div class="education5">🔬️ Education</div>
+                <div class="tax-benefits-for-investment-un-group">
+                  <div class="tax-benefits-for2">
+                    Tax Benefits for Investment under National Pension Scheme
+                    launched by Government
+                  </div>
+                  <div class="baseline-more-vert-24px-container">
+                    <img
+                      class="baseline-more-vert-24px-icon4"
+                      loading="lazy"
+                      alt=""
+                      src="./images/baseline-more_vert-24px.svg"
+                    />
+                  </div>
+                </div>
+                <div class="ive-worked-in5">
+                  I’ve worked in UX for the better part of a decade. From now
+                  on, I plan to rei…
+                </div>
+              </div>
+            </div>
+            <div class="post-items-inner2">
+              <div class="frame-parent5">
+                <div class="rectangle-parent33">
+                  <img
+                    class="frame-child43"
+                    alt=""
+                    src="./images/Rectangle 3.svg"
+                  />
+
+                  <div class="sarah-west-container">
+                    <div class="sarah-west4">Sarah West</div>
+                  </div>
+                </div>
+                <div class="frame-wrapper6">
+                  <div class="frame-parent6">
+                    <div class="frame-wrapper7">
+                      <div class="iconactionvisibility-24px-group">
+                        <img
+                          class="iconactionvisibility-24px5"
+                          alt=""
+                          src="./images/visibility_24px_outlined.svg"
+                        />
+
+                        <div class="k-views5">1.4k views</div>
+                      </div>
+                    </div>
+                    <img
+                      class="frame-child44"
+                      loading="lazy"
+                      alt=""
+                      src="./images/baseline-share-24px.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="meetup">
+            <div class="meetup-child"></div>
+            <img
+              class="meetup-image-icon"
+              alt=""
+              src="./images/Rectangle 5 (2).svg"
+            />
+
+            <div class="meetup-details">
+              <div class="meetup-title">
+                <div class="meetup1">🗓️ Meetup</div>
+                <div class="meetup-description">
+                  <div class="meetup-location">
+                    <div class="finance-investment-elite-soc-wrapper">
+                      <div class="finance-investment">
+                        Finance & Investment Elite Social Mixer @Lujiazui
+                      </div>
+                    </div>
+                    <div class="meetup-location-icon">
+                      <img
+                        class="meetup-location-pin"
+                        alt=""
+                        src="./images/baseline-more_vert-24px.svg"
+                      />
+
+                      <img
+                        class="baseline-more-vert-24px-icon5"
+                        alt=""
+                        src="./images/baseline-more_vert-24px.svg"
+                      />
+                    </div>
+                  </div>
+                  <form class="meetup-date">
+                    <button class="rectangle-parent34">
+                      <div class="frame-child45"></div>
+                      <div class="visit-website">Visit Website</div>
+                    </button>
+                    <img
+                      class="outline-location-on-24px-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./images/outline-location_on-24px.svg"
+                    />
+
+                    <div class="ahmedabad-india">Ahmedabad, India</div>
+                    <div class="fri-12-oct">Fri, 12 Oct, 2018</div>
+                    <img
+                      class="baseline-today-24px-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./images/baseline-today-24px.svg"
+                    />
+
+                    <div class="rectangle-parent35">
+                      <div class="frame-child46"></div>
+                      <div class="rectangle-parent36">
+                        <div class="frame-child47"></div>
+                        <div class="edit">Edit</div>
+                      </div>
+                      <div class="rectangle-parent37">
+                        <div class="frame-child48"></div>
+                        <div class="report">Report</div>
+                      </div>
+                      <div class="rectangle-parent38">
+                        <div class="frame-child49"></div>
+                        <div class="option-3">Option 3</div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="meetup-author">
+                  <div class="meetup-author-details">
+                    <img
+                      class="meetup-author-image"
+                      alt=""
+                      src="./images/Rectangle 3 (1).svg"
+                    />
+
+                    <div class="meetup-author-name">
+                      <div class="ronal-jones">Ronal Jones</div>
+                    </div>
+                  </div>
+                  <div class="meetup-views">
+                    <div class="meetup-view-details">
+                      <div class="meetup-view-icon">
+                        <div class="meetup-view-count">
+                          <img
+                            class="iconactionvisibility-24px6"
+                            alt=""
+                            src="./images/visibility_24px_outlined.svg"
+                          />
+
+                          <div class="k-views6">1.4k views</div>
+                        </div>
+                      </div>
+                      <img
+                        class="meetup-view-details-child"
+                        loading="lazy"
+                        alt=""
+                        src="./images/baseline-share-24px.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="job3">
+            <div class="job-child"></div>
+            <div class="job-details">
+              <div class="job4">💼️ Job</div>
+              <div class="job-description">
+                <div class="job-title">
+                  <div class="software-developer-parent">
+                    <div class="software-developer">Software Developer</div>
+                    <div class="company-info">
+                      <div class="company-location">
+                        <img
+                          class="outline-work-outline-24px-icon"
+                          loading="lazy"
+                          alt=""
+                          src="./images/outline-work_outline-24px.svg"
+                        />
+
+                        <div class="innovaccer-analytics-private">
+                          Innovaccer Analytics Private Ltd.
+                        </div>
+                      </div>
+                      <div class="company-location1">
+                        <img
+                          class="outline-location-on-24px-icon1"
+                          alt=""
+                          src="./images/outline-location_on-24px.svg"
+                        />
+
+                        <div class="noida-india">Noida, India</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-actions">
+                    <img
+                      class="baseline-more-vert-24px-icon6"
+                      alt=""
+                      src="./images/baseline-more_vert-24px.svg"
+                    />
+                  </div>
+                </div>
+                <button class="rectangle-parent39">
+                  <div class="frame-child50"></div>
+                  <div class="apply-on-timesjobs">Apply on Timesjobs</div>
+                </button>
+              </div>
+            </div>
+            <div class="job-card">
+              <div class="user-block">
+                <img
+                  class="user-image-icon"
+                  alt=""
+                  src="./images/Rectangle 3 (2).svg"
+                />
+
+                <div class="user-name">
+                  <div class="joseph-gray">Joseph Gray</div>
+                </div>
+              </div>
+              <div class="engagement">
+                <div class="view-count1">
+                  <div class="view-icon">
+                    <div class="view-number">
+                      <img
+                        class="iconactionvisibility-24px7"
+                        alt=""
+                        src="./images/visibility_24px_outlined.svg"
+                      />
+
+                      <div class="k-views7">1.4k views</div>
+                    </div>
+                  </div>
+                  <img
+                    class="view-count-child"
+                    loading="lazy"
+                    alt=""
+                    src="./images/baseline-share-24px.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="location-details-wrapper">
+          <div class="location-details">
+            <div class="location-input">
+              <div class="location-content">
+                <div class="current-location">
+                  <div class="location-name">
+                    <img
+                      class="outline-location-on-24px-2-icon2"
+                      alt=""
+                      src="./images/outline-location_on-24px.svg"
+                    />
+
+                    <div class="noida-india1">Noida, India</div>
+                  </div>
+                </div>
+                <img
+                  class="baseline-edit-24px-icon2"
+                  alt=""
+                  src="./images/baseline-edit-24px.svg"
+                />
+              </div>
+              <div class="separator1"></div>
+            </div>
+            <div class="location-prompt">
+              <div class="error-icon">
+                <img
+                  class="baseline-error-outline-24px-icon2"
+                  loading="lazy"
+                  alt=""
+                  src="./images/baseline-error_outline-24px.svg"
+                />
+              </div>
+              <div class="your-location-will2">
+                Your location will help us serve better and extend a
+                personalised experience.
+           </div> 
+            </div>
+            </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+    function toggleForm() {
+        var form = document.getElementById('create-account-form');
+        if (form.classList.contains('hidden')) {
+            form.classList.remove('hidden');
+            form.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            form.classList.add('hidden');
+        }
+    }
+</script>
+</body>
+</html>
